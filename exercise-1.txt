@@ -1,0 +1,57 @@
+Newton Second Law
+
+STORE "ΣF" with any value
+STORE "m" with  value 600 kg
+STORE "a" with value  2 m/s2
+CALCULATE "m" times "a"
+SET "ΣF" value with calculation result
+DISPLAY "ΣF";
+
+
+Tahun Kabisat
+1.Input any number of years
+2.If number modulo 4  is 0 and number modul0 100 is not zero
+3.If number module 4 is 0 and number modulo 100 is zero and number modulo 400 is zero
+
+
+STORE "tahunKabisat" with value "2020"
+    IF "tahunKabisat" mod "4" equal to "0" AND "tahunKabisat" mod "100" not equal to "0" 
+        SET "tahunKabisat" with value "tahunKabisat" add " adalah tahun kabisat."
+    IF ELSE "tahunKabisat" mod "4" equal to "0" AND "tahunKabisat" mod "100" equal to "0" AND "tahunKabisat" mod "400" equal to "0"
+        SET "tahunKabisat" with value "tahunKabisat" add " adalah tahun kabisat."
+    ELSE 
+        SET "tahunKabisat" with value "tahunKabisat" add " bukan adalah tahun kabisat."
+    
+
+Laundry Day
+1. Input totalLaundry with value 20
+2. Input laundry with value 0
+3. While laundry value is < totalLaundry
+4. laundry value add by 1
+
+
+STORE totalLaundry with value 20
+STORE laundry with value 0
+WHILE "laundry" less then "totalLaundry"
+    add "laundry" by 1
+DISPLAY "turn on"
+
+
+PERIKSA KUKU
+1.A Teacher announce that he will check he's student nail
+2. Total Studens are 40
+3. If he found with long nail, he will punish it.
+4. If he not found with long nail, he will praise him.
+
+
+STORE "checkStudent" to 1;
+STORE "totalStudent" with 40;
+STORE "nail" with "bad nail";
+
+
+WHILE "checkStudent" <= "totalStudent";
+  ADD "checkStudent" by 1;
+  IF "checkStudent" equals to "bad nail";
+    DISPLAY "Student will get punishment";
+  ELSE 
+    DISPLAY "Student will praise by teacher;
