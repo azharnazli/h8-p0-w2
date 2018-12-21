@@ -14,10 +14,10 @@ Tahun Kabisat
 3.If number module 4 is 0 and number modulo 100 is zero and number modulo 400 is zero
 
 
-STORE "tahunKabisat" with value "2020"
-    IF "tahunKabisat" mod "4" equal to "0" AND "tahunKabisat" mod "100" not equal to "0" 
+STORE "tahunKabisat" with value 2020
+    IF "tahunKabisat" mod 4 equal to 0 AND "tahunKabisat" mod 100 not equal to 0 
         SET "tahunKabisat" with value "tahunKabisat" add " adalah tahun kabisat."
-    IF ELSE "tahunKabisat" mod "4" equal to "0" AND "tahunKabisat" mod "100" equal to "0" AND "tahunKabisat" mod "400" equal to "0"
+    IF ELSE "tahunKabisat" mod 4 equal to 0 AND "tahunKabisat" mod 100 equal to 0 AND "tahunKabisat" mod 400 equal to 0
         SET "tahunKabisat" with value "tahunKabisat" add " adalah tahun kabisat."
     ELSE 
         SET "tahunKabisat" with value "tahunKabisat" add " bukan adalah tahun kabisat."
